@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB5DA0021D42048A0025FD21 /* RITLBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D9FF21D42048A0025FD21 /* RITLBannerCell.m */; };
+		DB5DA0031D42048A0025FD21 /* RITLBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5D9FF31D42048A0025FD21 /* RITLBannerCell.xib */; };
+		DB5DA0041D42048A0025FD21 /* RITLBannerTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D9FF51D42048A0025FD21 /* RITLBannerTimer.m */; };
+		DB5DA0051D42048A0025FD21 /* RITLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D9FF71D42048A0025FD21 /* RITLBannerView.m */; };
+		DB5DA0061D42048A0025FD21 /* YWebDataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D9FFA1D42048A0025FD21 /* YWebDataHandle.m */; };
+		DB5DA0071D42048A0025FD21 /* YWebDownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D9FFC1D42048A0025FD21 /* YWebDownManager.m */; };
+		DB5DA0081D42048A0025FD21 /* YWebFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D9FFE1D42048A0025FD21 /* YWebFileManager.m */; };
+		DB5DA0091D42048A0025FD21 /* UIImageView+YWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5DA0011D42048A0025FD21 /* UIImageView+YWebImage.m */; };
 		DBA1366C1D406DA600436EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA1366B1D406DA600436EEA /* main.m */; };
 		DBA1366F1D406DA600436EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA1366E1D406DA600436EEA /* AppDelegate.m */; };
 		DBA136721D406DA600436EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA136711D406DA600436EEA /* ViewController.m */; };
@@ -15,6 +23,15 @@
 		DBA1367A1D406DA600436EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA136781D406DA600436EEA /* LaunchScreen.storyboard */; };
 		DBA136851D406DA600436EEA /* CollectionBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA136841D406DA600436EEA /* CollectionBannerViewTests.m */; };
 		DBA136901D406DA600436EEA /* CollectionBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA1368F1D406DA600436EEA /* CollectionBannerViewUITests.m */; };
+		DBA136B71D40749300436EEA /* YZZBanner2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136B41D40749300436EEA /* YZZBanner2.png */; };
+		DBA136B81D40749300436EEA /* YZZBanner2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136B51D40749300436EEA /* YZZBanner2@2x.png */; };
+		DBA136B91D40749300436EEA /* YZZBanner2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136B61D40749300436EEA /* YZZBanner2@3x.png */; };
+		DBA136C01D40755D00436EEA /* YZZBanner1.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136BA1D40755D00436EEA /* YZZBanner1.png */; };
+		DBA136C11D40755D00436EEA /* YZZBanner1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136BB1D40755D00436EEA /* YZZBanner1@2x.png */; };
+		DBA136C21D40755D00436EEA /* YZZBanner1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136BC1D40755D00436EEA /* YZZBanner1@3x.png */; };
+		DBA136C31D40755D00436EEA /* YZZBanner3.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136BD1D40755D00436EEA /* YZZBanner3.png */; };
+		DBA136C41D40755D00436EEA /* YZZBanner3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136BE1D40755D00436EEA /* YZZBanner3@2x.png */; };
+		DBA136C51D40755D00436EEA /* YZZBanner3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA136BF1D40755D00436EEA /* YZZBanner3@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB249C001D40CA5C00F30E41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DB5D9FF11D42048A0025FD21 /* RITLBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLBannerCell.h; sourceTree = "<group>"; };
+		DB5D9FF21D42048A0025FD21 /* RITLBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLBannerCell.m; sourceTree = "<group>"; };
+		DB5D9FF31D42048A0025FD21 /* RITLBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RITLBannerCell.xib; sourceTree = "<group>"; };
+		DB5D9FF41D42048A0025FD21 /* RITLBannerTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLBannerTimer.h; sourceTree = "<group>"; };
+		DB5D9FF51D42048A0025FD21 /* RITLBannerTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLBannerTimer.m; sourceTree = "<group>"; };
+		DB5D9FF61D42048A0025FD21 /* RITLBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLBannerView.h; sourceTree = "<group>"; };
+		DB5D9FF71D42048A0025FD21 /* RITLBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLBannerView.m; sourceTree = "<group>"; };
+		DB5D9FF91D42048A0025FD21 /* YWebDataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWebDataHandle.h; sourceTree = "<group>"; };
+		DB5D9FFA1D42048A0025FD21 /* YWebDataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWebDataHandle.m; sourceTree = "<group>"; };
+		DB5D9FFB1D42048A0025FD21 /* YWebDownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWebDownManager.h; sourceTree = "<group>"; };
+		DB5D9FFC1D42048A0025FD21 /* YWebDownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWebDownManager.m; sourceTree = "<group>"; };
+		DB5D9FFD1D42048A0025FD21 /* YWebFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWebFileManager.h; sourceTree = "<group>"; };
+		DB5D9FFE1D42048A0025FD21 /* YWebFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWebFileManager.m; sourceTree = "<group>"; };
+		DB5DA0001D42048A0025FD21 /* UIImageView+YWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YWebImage.h"; sourceTree = "<group>"; };
+		DB5DA0011D42048A0025FD21 /* UIImageView+YWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YWebImage.m"; sourceTree = "<group>"; };
 		DBA136671D406DA600436EEA /* CollectionBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA1366B1D406DA600436EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DBA1366D1D406DA600436EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +84,15 @@
 		DBA1368B1D406DA600436EEA /* CollectionBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA1368F1D406DA600436EEA /* CollectionBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionBannerViewUITests.m; sourceTree = "<group>"; };
 		DBA136911D406DA600436EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA136B41D40749300436EEA /* YZZBanner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YZZBanner2.png; sourceTree = "<group>"; };
+		DBA136B51D40749300436EEA /* YZZBanner2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YZZBanner2@2x.png"; sourceTree = "<group>"; };
+		DBA136B61D40749300436EEA /* YZZBanner2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YZZBanner2@3x.png"; sourceTree = "<group>"; };
+		DBA136BA1D40755D00436EEA /* YZZBanner1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YZZBanner1.png; sourceTree = "<group>"; };
+		DBA136BB1D40755D00436EEA /* YZZBanner1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YZZBanner1@2x.png"; sourceTree = "<group>"; };
+		DBA136BC1D40755D00436EEA /* YZZBanner1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YZZBanner1@3x.png"; sourceTree = "<group>"; };
+		DBA136BD1D40755D00436EEA /* YZZBanner3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YZZBanner3.png; sourceTree = "<group>"; };
+		DBA136BE1D40755D00436EEA /* YZZBanner3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YZZBanner3@2x.png"; sourceTree = "<group>"; };
+		DBA136BF1D40755D00436EEA /* YZZBanner3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YZZBanner3@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +120,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB5D9FF01D42048A0025FD21 /* RITLBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				DB5D9FF11D42048A0025FD21 /* RITLBannerCell.h */,
+				DB5D9FF21D42048A0025FD21 /* RITLBannerCell.m */,
+				DB5D9FF31D42048A0025FD21 /* RITLBannerCell.xib */,
+				DB5D9FF41D42048A0025FD21 /* RITLBannerTimer.h */,
+				DB5D9FF51D42048A0025FD21 /* RITLBannerTimer.m */,
+				DB5D9FF61D42048A0025FD21 /* RITLBannerView.h */,
+				DB5D9FF71D42048A0025FD21 /* RITLBannerView.m */,
+				DB5D9FF81D42048A0025FD21 /* YWebImage */,
+				DB5D9FFF1D42048A0025FD21 /* YWebImage+UIKit */,
+			);
+			path = RITLBannerView;
+			sourceTree = "<group>";
+		};
+		DB5D9FF81D42048A0025FD21 /* YWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DB5D9FF91D42048A0025FD21 /* YWebDataHandle.h */,
+				DB5D9FFA1D42048A0025FD21 /* YWebDataHandle.m */,
+				DB5D9FFB1D42048A0025FD21 /* YWebDownManager.h */,
+				DB5D9FFC1D42048A0025FD21 /* YWebDownManager.m */,
+				DB5D9FFD1D42048A0025FD21 /* YWebFileManager.h */,
+				DB5D9FFE1D42048A0025FD21 /* YWebFileManager.m */,
+			);
+			path = YWebImage;
+			sourceTree = "<group>";
+		};
+		DB5D9FFF1D42048A0025FD21 /* YWebImage+UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DA0001D42048A0025FD21 /* UIImageView+YWebImage.h */,
+				DB5DA0011D42048A0025FD21 /* UIImageView+YWebImage.m */,
+			);
+			path = "YWebImage+UIKit";
+			sourceTree = "<group>";
+		};
 		DBA1365E1D406DA600436EEA = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +181,16 @@
 		DBA136691D406DA600436EEA /* CollectionBannerView */ = {
 			isa = PBXGroup;
 			children = (
+				DB5D9FF01D42048A0025FD21 /* RITLBannerView */,
+				DBA136BA1D40755D00436EEA /* YZZBanner1.png */,
+				DBA136BB1D40755D00436EEA /* YZZBanner1@2x.png */,
+				DBA136BC1D40755D00436EEA /* YZZBanner1@3x.png */,
+				DBA136BD1D40755D00436EEA /* YZZBanner3.png */,
+				DBA136BE1D40755D00436EEA /* YZZBanner3@2x.png */,
+				DBA136BF1D40755D00436EEA /* YZZBanner3@3x.png */,
+				DBA136B41D40749300436EEA /* YZZBanner2.png */,
+				DBA136B51D40749300436EEA /* YZZBanner2@2x.png */,
+				DBA136B61D40749300436EEA /* YZZBanner2@3x.png */,
 				DBA1366D1D406DA600436EEA /* AppDelegate.h */,
 				DBA1366E1D406DA600436EEA /* AppDelegate.m */,
 				DBA136701D406DA600436EEA /* ViewController.h */,
@@ -110,6 +200,7 @@
 				DBA136781D406DA600436EEA /* LaunchScreen.storyboard */,
 				DBA1367B1D406DA600436EEA /* Info.plist */,
 				DBA1366A1D406DA600436EEA /* Supporting Files */,
+				DB249C001D40CA5C00F30E41 /* PrefixHeader.pch */,
 			);
 			path = CollectionBannerView;
 			sourceTree = "<group>";
@@ -243,9 +334,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA136C41D40755D00436EEA /* YZZBanner3@2x.png in Resources */,
 				DBA1367A1D406DA600436EEA /* LaunchScreen.storyboard in Resources */,
+				DBA136C11D40755D00436EEA /* YZZBanner1@2x.png in Resources */,
+				DBA136C21D40755D00436EEA /* YZZBanner1@3x.png in Resources */,
+				DBA136B71D40749300436EEA /* YZZBanner2.png in Resources */,
 				DBA136771D406DA600436EEA /* Assets.xcassets in Resources */,
 				DBA136751D406DA600436EEA /* Main.storyboard in Resources */,
+				DBA136C01D40755D00436EEA /* YZZBanner1.png in Resources */,
+				DBA136C31D40755D00436EEA /* YZZBanner3.png in Resources */,
+				DBA136B91D40749300436EEA /* YZZBanner2@3x.png in Resources */,
+				DBA136C51D40755D00436EEA /* YZZBanner3@3x.png in Resources */,
+				DB5DA0031D42048A0025FD21 /* RITLBannerCell.xib in Resources */,
+				DBA136B81D40749300436EEA /* YZZBanner2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5DA0021D42048A0025FD21 /* RITLBannerCell.m in Sources */,
+				DB5DA0081D42048A0025FD21 /* YWebFileManager.m in Sources */,
 				DBA136721D406DA600436EEA /* ViewController.m in Sources */,
+				DB5DA0051D42048A0025FD21 /* RITLBannerView.m in Sources */,
+				DB5DA0071D42048A0025FD21 /* YWebDownManager.m in Sources */,
 				DBA1366F1D406DA600436EEA /* AppDelegate.m in Sources */,
+				DB5DA0061D42048A0025FD21 /* YWebDataHandle.m in Sources */,
+				DB5DA0041D42048A0025FD21 /* RITLBannerTimer.m in Sources */,
 				DBA1366C1D406DA600436EEA /* main.m in Sources */,
+				DB5DA0091D42048A0025FD21 /* UIImageView+YWebImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CollectionBannerView/PrefixHeader.pch;
 				INFOPLIST_FILE = CollectionBannerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yue.CollectionBannerView;
@@ -424,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CollectionBannerView/PrefixHeader.pch;
 				INFOPLIST_FILE = CollectionBannerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yue.CollectionBannerView;
@@ -496,6 +606,7 @@
 				DBA136961D406DA600436EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBA136971D406DA600436EEA /* Build configuration list for PBXNativeTarget "CollectionBannerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +615,7 @@
 				DBA136991D406DA600436EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBA1369A1D406DA600436EEA /* Build configuration list for PBXNativeTarget "CollectionBannerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +624,7 @@
 				DBA1369C1D406DA600436EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
